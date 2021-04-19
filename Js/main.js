@@ -61,17 +61,12 @@ function handleNumber(el) {
 
 function handleOperator(el) {
     firstValue=display;
-    
+    operator=el;
+    console.log(operator);
     switch(operator)
     {
         case '+':
-            operator='+';
-            if (secondValue === '0') {
-                display='0'
-                handleNumber(el);
-
-            }
-            firstValue + secondValue;
+            
             break;
         case '-':
 
@@ -91,6 +86,7 @@ function dot() {
     if (!displayElement.innerHTML.includes('.')) {
         displayElement.innerHTML += '.';
     }
+
 }
 
 function clear() {
