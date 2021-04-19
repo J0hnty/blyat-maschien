@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(197, 197, 197);
+}
+
+.jumbotron {
+    background-color:rgb(140, 242, 255);
+    text-align: center;
+}
+
+.dark-body{
+    background-color: rgb(49, 49, 49);
+    color: rgb(185, 185, 185);
+}
+
+.dark-blue-background{
+    background-color: rgb(12, 1, 112);
+}
+
+button {
+    text-align: center;
+    width: 100px;
+    height: auto;
+    flex-basis: 25%;
+    padding: 15px;
+}
+
+.buttons {
+    max-width: 400px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.container-fluid {
+    text-align: center;
+    justify-content: center;
+    align-self:center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    background-color: rgb(140, 242, 255);
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    width: 400px;
+    text-align: right;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    align-self:center;
+}
+td {
+    border: 1px solid black;
+    text-align: center;
+}
