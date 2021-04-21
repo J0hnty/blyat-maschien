@@ -92,8 +92,8 @@ function clear() {
 
 function dot() {
     if (!displayElement.innerHTML.includes('.')) {
-        displayElement.innerHTML += '.';
-        display + '.';
+        display += '.';
+        showDisplay();
     }
 
 }

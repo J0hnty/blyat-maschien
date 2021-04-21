@@ -58,14 +58,13 @@ button {
     border-bottom: 1px solid #999;
     border-left: 1px solid#999;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    border: 0.5px solid #999;
     text-align: center;
     font-size: 25px;
     cursor: pointer;
 }
 
 .btn-equal:hover {
-    background-color: #72047c;
+    background-color: #72047cb6;
     color: white;
     transition: 0.4s ease-in-out;
 }
@@ -74,11 +73,15 @@ button {
 .btn-operator:hover,
 .btn-dot:hover,
 .btn-clear:hover {
-    background-color: rgb(41, 41, 41);
+    background-color: rgba(41, 41, 41, 0.726);
     color: white;
     transition: 0.4s ease-in-out;
 }
 
+.history {
+    background-color: rgb(140, 242, 255);;
+    width: 300px;
+}
 table {
     border: 1px solid black;
     border-collapse: collapse;
