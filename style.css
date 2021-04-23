@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(197, 197, 197);
+}
+
+.dark-body{
+    background-color: rgb(49, 49, 49);
+    color: rgb(185, 185, 185);
+}
+
+.display {
+    background-color: rgb(140, 242, 255);
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    width: 400px;
+    text-align: right;
+}
+
+.jumbotron {
+    background-color:rgb(140, 242, 255);
+    text-align: center;
+}
+
+.dark-blue-background{
+    background-color: rgb(4, 0, 44);
+    color: rgb(185, 185, 185);
+}
+
+.container {
+    text-align: center;
+    justify-content: center;
+    align-self:center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    text-align: center;
+    width: 100px;
+    height: auto;
+    padding: 15px;
+}
+
+.big {
+    width: 200px;
+}
+
+.bigger {
+    width: 300px;
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid#999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.btn-equal:hover {
+    background-color: #72047cb6;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+
+.btn-number:hover,
+.btn-operator:hover,
+.btn-dot:hover,
+.btn-clear:hover {
+    background-color: rgba(41, 41, 41, 0.726);
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+
+.history {
+    background-color: rgb(140, 242, 255);;
+    width: 300px;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    align-self:center;
+}
+td {
+    border: 1px solid black;
+    text-align: center;
+}
